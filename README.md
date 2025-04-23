@@ -1,19 +1,50 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Leads Tracker Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This is a custom-built Chrome extension developed from scratch using **HTML**, **CSS**, and **JavaScript**. While the project idea was inspired by Scrimba’s Frontend Developer Career Path, the entire design and codebase were independently created to practice building browser extensions and managing user data.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+> 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## ✨ Overview
 
-Happy Coding!
+This Chrome extension allows users to save and manage a list of leads (URLs) directly from their browser. It includes:
+
+- An input field to manually add URLs
+- A button to save the current tab's URL
+- A list display of saved leads
+- A delete button to clear all saved leads
+
+## ⚙️ How It Works
+
+- Users can enter a URL manually or click a button to save the current browser tab's URL.
+- Saved leads are displayed in a list format with clickable links.
+- Leads are stored in the browser's local storage, ensuring data persistence across sessions.
+- A delete button allows users to clear all saved leads from both the display and local storage.
+
+## 🛠️ Personalization
+
+Although the initial concept was provided by Scrimba, the following customizations were implemented:
+
+- Built the extension's layout and styling from scratch
+- Implemented local storage functionality for data persistence
+- Added features to save the current tab's URL and clear all saved leads
+
+## 🚧 Planned Updates
+
+- Add functionality to delete individual leads
+- Implement search or filter options for the leads list
+- Enhance the user interface with improved styling and animations
+
+## 🗂️ File Structure (basic)
+
+- `index.html` – Main structure of the extension's popup
+- `style.css` – Styling for layout and design
+- `script.js` – JavaScript for handling user interactions and data management
+- `manifest.json` – Configuration file for the Chrome extension
+
+## ⚙️ Getting Started
+
+To run the extension locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Denilson15/chromeExtension.git
